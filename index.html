@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="notes.js"></script>
+</head>
+<body>
+
+<div class="notes-app" >
+
+<h2 class="app-header" >Редактор заметок</h2>
+<div class="quickadd"><button id="QuickAdd">Создать</button></div>
+<div class="note-editor" ><button id="cancel" >X</button><textarea placeholder="Напишите заметку здесь..." rows="5" id="textarea"></textarea>
+<button id="add-button" >Add</button>
+</div>
+<div class="search"><input type="text" class="input" placeholder="искать по #"><button id="Search">Искать</button></div>
+<div class="tags"></div>
+<div class="update_wrapper">
+<button id="cancel_wrap" >X</button>
+<div class="note-update" contenteditable="true"></div>
+<button id="edit_button" >Add</button>
+</div>
+<div class="notes-grid" ></div>
+</div>
+
+</body>
+</html>
